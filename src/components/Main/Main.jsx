@@ -4,7 +4,7 @@ import Creator from '../Creator/Creator'
 import HowItWorks from '../How-it-works/HowItWorks'
 import KeyHighlights from '../Key-Highlights/KeyHighlights'
 import Roadmap from '../RoadMap/RoadMap'
-import Contact from '../contact-us/Contact'
+import Contact from '../Contact/Contact'
 
 function Main() {
   return (
