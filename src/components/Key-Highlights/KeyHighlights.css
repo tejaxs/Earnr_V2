@@ -12,10 +12,7 @@
     background-size: cover;
   }
   
-  .frame-image {
-    width: 100%;
-    background-image: url('./Frame 1.png');
-  }
+ 
   
   .highlights-content {
     position: relative;
