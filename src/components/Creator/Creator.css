@@ -1,0 +1,28 @@
+.creator-content{
+    height: 400px;
+    background-color: transparent;
+    display: flex;
+    padding-top: 30px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.reward{
+    margin-top: 74px;
+    margin-left: 110px;
+    width: 624px;
+}
+
+.creator{
+    margin-left: 110px;
+    width: 547px;
+}
+
+
+.social-media{
+    margin-left: 180px;
+    z-index: 2;
+}

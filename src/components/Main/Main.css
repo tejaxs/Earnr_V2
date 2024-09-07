@@ -1,0 +1,35 @@
+.main{
+    opacity: 1px;
+    /* background: rgb(0, 0, 0); */
+    background: 
+        linear-gradient(
+            to bottom, 
+            rgba(0, 0, 0, 1) 0%,         /* Solid black at the top */
+            rgba(0, 0, 0, 1) 50%,        /* Solid black until halfway */
+            rgba(1, 1, 33, 0.8) 100%    /* Dark blue starts fading from middle */
+        ),
+        radial-gradient(
+            at bottom left, 
+            rgba(25, 3, 73, 0.8),    /* Dark pink fades in from bottom-left */
+            transparent 70%
+        ),
+        radial-gradient(
+            at bottom right, 
+            rgba(88, 59, 4, 0.8),      /* Orange fades in from bottom-right */
+            transparent 70%
+        );
+    
+    background-blend-mode: screen; /* Blend the gradients together */
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+
+.image{
+    position: absolute;
+    margin-left: 62vw;
+    z-index: 0;
+    margin-bottom: 200px;
+}
+

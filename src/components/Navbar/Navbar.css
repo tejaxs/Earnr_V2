@@ -1,0 +1,31 @@
+.navbar{
+    height: 100px;
+    display: flex;
+}
+
+
+.logo{
+    width: 218px;
+    height: 62px;
+    margin-top: 27px;
+    margin-left: 110px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.launch-btn {
+    width: 180px;
+    height: 48px;
+    margin-top: 34px;
+    margin-left: 890px;
+    border-width: 2px; /* smaller value */
+    border-radius: 5px;
+    background-color: transparent;
+    border-color: rgb(255, 227, 227);
+    border-style: solid; /* set border style to solid */
+    color: rgb(255, 227, 227); /* to match text with border color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

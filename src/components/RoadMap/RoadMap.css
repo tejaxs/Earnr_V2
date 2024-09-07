@@ -1,0 +1,93 @@
+.roadmap-container {
+  position: relative;
+  height: 1200px;
+  /* background: linear-gradient(to bottom, #2e3b5f, #63285f); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.roadmap-title {
+  font-size: 5rem;
+  color: white;
+  font-weight: 200;
+  margin-bottom: 100px;
+}
+
+.boxes-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 80px;
+  z-index: 1;  
+  margin-bottom: 400px;
+}
+
+.roadmap-box {
+  width: 70vw;
+  height: 100px;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  /* border: 1px solid white; */
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+  .engagment-image{
+
+    height: 120%;
+  }
+
+  .engagment-image{
+
+    height: 120%;
+  }
+
+
+  .engagment-image{
+
+    height: 120%;
+  }
+
+
+.strips-container {
+  margin-top: 100px;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 2;  
+}
+
+.black-strip-1 {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  transform: rotate(-1deg);
+}
+
+.yellow-strip-1 {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  transform: rotate(10deg);
+}
+
+.black-strip-2 {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  transform: rotate(1deg);
+}
+
+.yellow-strip-2 {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  transform: rotate(-5deg);
+}
+

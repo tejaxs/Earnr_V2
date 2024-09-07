@@ -1,0 +1,10 @@
+.container{
+    width: 341px;
+    height: 370px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: rgba(0, 0, 0, 0.42);
+    border: 1px solid rgba(255, 255, 255, 1)
+}
