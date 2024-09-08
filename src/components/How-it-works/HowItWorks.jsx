@@ -25,7 +25,7 @@ function HowItWorks() {
         <div className="flex md:flex-row flex-col justify-center md:gap-24 gap-10 md:mt-24 mt-10">
           <div className="z-20 flex flex-col items-center">
             <iframe
-              className="md:w-[500px] w-[350px] md:h-[250px] h-[200px] z-20"
+              className="lg:w-[500px] md:w-[360px] w-[350px] lg:h-[250px] md:h-[230px] h-[200px] z-20"
               // width="560"
               // height="315"
               src="https://www.youtube.com/embed/7MDlK8DBtbo"
@@ -42,7 +42,7 @@ function HowItWorks() {
           </div>
           <div className="z-20 flex flex-col items-center">
             <iframe
-              className="md:w-[500px] w-[350px] md:h-[250px] h-[200px] z-20"
+              className="lg:w-[500px] md:w-[360px] w-[350px] lg:h-[250px] md:h-[230px] h-[200px] z-20"
               // width="560"
               // height="315"
               src="https://www.youtube.com/embed/hXAC8lIgMr8"
