@@ -13,7 +13,7 @@ function KeyHighlights() {
           <img src="/assets/Group 18 (1).png" alt="Key Highlights" className="key-highlights-text" />
           <img src="/assets/Group 17.png" alt="Pink Box" className="pink-box" />
           <img src="/assets/Group 24.png" alt="Red Box" className="socials-image" />
-          <img src="/assets/Data Driven Creator Economy.png" alt="Red Box" className="socials-image-text" />
+          <img src="/assets/Data Driven Creator Economy.png" alt="Red Box" className="socials-image-text" />
           <img src="/assets/Group 15 (1).png" alt="Blue Box" className="blue-box" />
           <img src="/assets/Coins Chart.png" alt="Red Box" className="coin-chart-image" />
           <img src="/assets/Accelerated creator growth.png" alt="Red Box" className="coin-chart-image-text" />
