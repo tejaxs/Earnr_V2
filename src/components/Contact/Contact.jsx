@@ -37,13 +37,13 @@ function Contact() {
             alt="Twitter"
           />
         </a>
-        <div className="flex flex=col justify-center items-center cursor-pointer">
+        <a href="mailto:contact@earnr.live" className="flex flex=col justify-center items-center cursor-pointer">
           <img
             className="md:w-[50px] w-[40px] md:h-[50px] h-[40px]"
             src="/assets/Layer 2.png"
             alt="Email"
           />
-        </div>
+        </a>
       </div>
     </div>
   );
