@@ -14,6 +14,9 @@ function App() {
       <KeyHighlights />
       <Roadmap />
       <Contact />
+      <div className="bg-[#0000008A] text-[#ffffff81] urbanist-400 text-center tracking-wider py-2">
+      © copyright reserved to earnr.live
+      </div>
     </div>
   );
 }

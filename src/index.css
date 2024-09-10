@@ -60,6 +60,12 @@ html, body {
     font-weight: 600;
     font-style: normal;
   }
+  .urbanist-400{
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
   
   .main{
     opacity: 1px;
@@ -95,3 +101,12 @@ html, body {
     z-index: 0;
     margin-bottom: 200px;
 }
+
+
+.gradient-text {
+  background: linear-gradient(90deg, #FC4C3F, #00FFF0, #FF00D6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
