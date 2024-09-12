@@ -1,8 +1,8 @@
 
 function KeyHighlights() {
     return (
-      <div className="relative md:mt-[300px] mt-[230px] overflow-hidden h-[850px]">
-        <div className="absolute w-full bg-repeat-y bg-cover">
+      <div className="relative md:mt-[300px] mt-[150px] overflow-hidden h-[850px]">
+        <div className="absolute w-full bg-repeat-y bg-cover overflow-hidden">
           <img src="/assets/Frame 2 (1).png" alt="Background Frame" className="h-[212px] w-full" />
           <img src="/assets/Frame 2 (1).png" alt="Background Frame" className="h-[212px] w-full" />
           <img src="/assets/Frame 2 (1).png" alt="Background Frame" className="h-[212px] w-full" />

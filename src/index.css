@@ -102,11 +102,9 @@ html, body {
     margin-bottom: 200px;
 }
 
-
-.gradient-text {
+.button-gradient-border {
+  position: relative;
+  border-radius: 10px;
   background: linear-gradient(90deg, #FC4C3F, #00FFF0, #FF00D6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  padding: 3px
 }
-
