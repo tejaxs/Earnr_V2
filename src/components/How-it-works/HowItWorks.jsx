@@ -1,9 +1,9 @@
 function HowItWorks() {
   return (
     <div className="mt-[40px] bg-transparent flex flex-col md:px-24 px-6">
-      <div className="relative flex justify-center">
+      <div className="relative flex justify-center z-10">
         <img
-          className="z-10 md:w-[900px] w-[400px]"
+          className="z-20 md:w-[900px] w-[400px]"
           src="/assets/How it works_.png"
           alt=""
         />
@@ -15,10 +15,10 @@ function HowItWorks() {
         />
       </div>
       <div className="">
-        <div className="absolute left-0">
+        <div className="absolute left-0 z-0">
           <img
-            className="relative left-0 z-0 md:w-[460px] w-[380px] md:top-24 top-40"
-            src="/assets/Group 2.png"
+            className="relative left-0 z-0 md:w-[460px] w-[380px] md:-top-48 -top-36 "
+            src="/assets/circle.png"
             alt=""
           />
         </div>

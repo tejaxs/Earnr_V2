@@ -16,6 +16,22 @@ html, body {
     backdrop-filter: blur(5px);
 
   }
+  /* .black-strip-1 {
+    position: absolute;
+    transform: rotate(10deg);
+  }
+  .black-strip-2 {
+    position: absolute;
+    transform: rotate(-10deg);
+  }
+  .yellow-strip-1 {
+    position: absolute;
+    transform: rotate(-10deg);
+  }
+  .yellow-strip-2 {
+    position: absolute;
+    transform: rotate(10deg);
+  } */
   .black-strip-1 {
     position: absolute;
     top: 20%;
@@ -43,6 +59,7 @@ html, body {
     width: 100%;
     transform: rotate(-5deg);
   }
+  
 
   .contact-bg{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.36) 0%, rgba(0, 0, 0, 0.36) 100%);
@@ -108,3 +125,27 @@ html, body {
   background: linear-gradient(90deg, #FC4C3F, #00FFF0, #FF00D6);
   padding: 3px
 }
+
+.marquee-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: #000;
+}
+
+.marquee-line {
+  display: flex;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  will-change: transform;
+  
+}
+
+.marquee-text {
+  font-size: 32px;
+  /* color: #CBA74B; */
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 700;
+  padding-right: 1rem;
+}
+

@@ -12,7 +12,7 @@ function Navbar() {
       <button
         onMouseEnter={() => setHover(true)}
         onMouseLeave={() => setHover(false)}
-        className="border-2 z-20 border-[#FFE3E3] rounded bg-transparent w-[140px] md:py-3 py-2 text-[#FFE3E3] flex justify-center items-center md:text-lg text-sm"
+        className="border-2 z-20 border-[#FFE3E3] bg-black rounded bg-transparent md:w-[160px] w-[140px] md:py-3 py-2 text-[#FFE3E3] flex justify-center items-center md:text-lg text-sm"
       >
         {hover ? "Coming soon..." : "Launch"}
       </button>
@@ -20,7 +20,7 @@ function Navbar() {
         <img
           src="/assets/earnr_5@4x.png"
           alt=""
-          className="w-[670px] h-[505px] z-0"
+          className="md:w-[670px] md:h-[505px] w-[250px] h-[230px] z-0"
         />
       </div>
     </div>
