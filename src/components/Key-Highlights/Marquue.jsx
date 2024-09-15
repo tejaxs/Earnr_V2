@@ -2,13 +2,13 @@ import React from "react";
 import { motion } from "framer-motion";
 const Marquue = () => {
   return (
-    <div className="marquee-container">
+    <div className="marquee-container opacity-55">
       <motion.div
         className="marquee-line"
         animate={{ x: [0, -1000] }}
         transition={{
           repeat: Infinity,
-          duration: 15,
+          duration: 40,
           ease: "linear",
         }}
       >
@@ -23,7 +23,7 @@ const Marquue = () => {
         animate={{ x: [-1000, 0] }}
         transition={{
           repeat: Infinity,
-          duration: 15,
+          duration: 40,
           ease: "linear",
         }}
       >
