@@ -9,26 +9,27 @@ function Navbar() {
         src="/assets/earnr_white@4x 1.png"
         alt=""
       />
-      <button
-  onMouseEnter={() => setHover(true)}
-  onMouseLeave={() => setHover(false)}
+      <Link to={"https://app.earnr.live/"}
+  // onMouseEnter={() => setHover(true)}
+  // onMouseLeave={() => setHover(false)}
   className="relative border-2 z-20 border-[#FFE3E3] bg-black rounded bg-transparent md:w-[160px] w-[140px] py-5 md:px-4 px-0 text-[#FFE3E3] flex justify-center items-center md:text-lg text-xs overflow-hidden"
 >
-  <span
+  Launch
+  {/* <span
     className={`absolute transition-all duration-700 ease-in-out transform ${
       hover ? 'opacity-0 -translate-x-10 -rotate-6 skew-y-6' : 'opacity-100 translate-x-0 rotate-0 skew-y-0'
     }`}
   >
     Launch
-  </span>
-  <span
+  </span> */}
+  {/* <span
     className={`absolute transition-all duration-700 ease-in-out transform ${
       hover ? 'opacity-100 translate-x-0 rotate-0 skew-y-0' : 'opacity-0 translate-x-10 rotate-6 skew-y-6'
     }`}
   >
     Coming soon...
-  </span>
-</button>
+  </span> */}
+</Link>
 
       <div className="absolute right-0 opacity-20 z-0">
         <img
